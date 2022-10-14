@@ -21,8 +21,8 @@ export const Feed = () => {
          img:'https://care4blood.ulm.ac.id/frontTemplate/img/icon/ikon%202.png'
         },
         {
-         text:'Keluar darah setelah sunat',
-         img:'https://care4blood.ulm.ac.id/frontTemplate/img/icon/ikon%203.png'
+         text:'Keluar darah setelah sunat untuk anak kecil',
+         img:'https://care4blood.ulm.ac.id/frontTemplate/img/icon/ikon%206.png'
         },
         {
          text:'Pendarahan setelah disuntik',

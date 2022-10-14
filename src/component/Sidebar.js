@@ -46,15 +46,6 @@ export const Sidebar = () => {
               <ListItemText primary="Riwayat Assessment" />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#">
-              <ListItemIcon>
-                <DarkModeIcon />
-              </ListItemIcon>
-              <Switch color='warning' defaultChecked />
-
-            </ListItemButton>
-          </ListItem>
           </List>
     </Box>
   )

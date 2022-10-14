@@ -14,10 +14,13 @@ import {
 import SignIn from './pages/SignIn';
 import Home from './pages/Home';
 import Assessment from './pages/Assessment';
-  
+import { Provider } from "react-redux";
+import { store } from "./store";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Provider store={store}>
     <ThemeProvider theme={theme}>
     <BrowserRouter>
     <Routes>
@@ -27,6 +30,7 @@ root.render(
     </Routes>
   </BrowserRouter>,
     </ThemeProvider>
+    </Provider>
   </React.StrictMode>
 );
 
