@@ -13,6 +13,7 @@ import {
   } from "react-router-dom";
 import SignIn from './pages/SignIn';
 import Home from './pages/Home';
+import Assessment from './pages/Assessment';
   
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     <Routes>
       <Route path="/" element={<SignIn />}></Route>
       <Route path="/home" element={<Home />}></Route>
+      <Route path="/assessment" element={<Assessment />}></Route>
     </Routes>
   </BrowserRouter>,
     </ThemeProvider>

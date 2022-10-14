@@ -2,6 +2,8 @@ import React from 'react'
 import {Button, Card, CardContent, Grid, Typography } from '@mui/material'
 import HeaderImg from "../img/header.png";
 import { Box } from '@mui/system';
+import { Link } from 'react-router-dom';
+
 export default function Header() {
   return (
     <div>
@@ -19,7 +21,7 @@ export default function Header() {
                         <Typography variant='h5' sx={{color:'red',margin:0}}>
                             Early Detection, Saving Generation
                         </Typography>
-                        <Button variant="contained" size="small" color='error' sx={{marginTop:'10px'}}>Take self assessment</Button>
+                        <Link to="/assessment"><Button variant="contained" size="small" color='error' sx={{marginTop:'10px'}}>Take self assessment</Button></Link>
                     </Box>
                    </Grid>
                 </Grid>

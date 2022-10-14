@@ -4,7 +4,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import BookIcon from '@mui/icons-material/Book';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-
+import { Link } from 'react-router-dom';
 import { Box } from '@mui/system';
 
 export const Sidebar = () => {
@@ -21,12 +21,14 @@ export const Sidebar = () => {
     >
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#">
-              <ListItemIcon>
-                <HomeIcon />
-              </ListItemIcon>
-              <ListItemText primary="Homepage" />
-            </ListItemButton>
+            <Link to="/home">
+              <ListItemButton component="a" href="#">
+                <ListItemIcon>
+                  <HomeIcon />
+                </ListItemIcon>
+                <ListItemText primary="Homepage" />
+              </ListItemButton>
+            </Link>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton component="a" href="#">
